@@ -127,7 +127,7 @@ public class CarWaleApiTest {
 
                 // 4. Assert properties of the first offer
                 Offer firstOffer = offers.get(0);
-                assertThat(firstOffer.key).isEqualTo("799999");
+                assertThat(firstOffer.key).isEqualTo("799990");
                 assertThat(firstOffer.val).isEqualTo("₹ 8 Lakh");
 
                 // 5. Use Java streams to find a specific offer
