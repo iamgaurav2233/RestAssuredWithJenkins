@@ -38,7 +38,7 @@ public class CarWaleApiTest {
                 given()
                                 // No additional setup needed due to @BeforeAll
                                 .when()
-                                .get("/799999")
+                                .get("/799990")
                                 .then()
                                 .log().ifError()
                                 // 1. Verify the HTTP status is 200 OK
